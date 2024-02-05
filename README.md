@@ -9,7 +9,7 @@ This repository contains student project materials, including project report, da
 
 ## Name: Mordred Boulais
 
-## Major: Previous CS Major (Current Project: TODO)
+## Major: Previous CS Major (Current Project: Software Engineering)
 
 ## Project Name: Enter The Name Of Your Project
 
