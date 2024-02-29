@@ -11,9 +11,7 @@ This repository contains student project materials, including project report, da
 
 ## Major: Previous CS Major (Current Project: Software Engineering)
 
-## Project Name: Enter The Name Of Your Project
-
-Here, think of an interesting name of the work that bring a freshness and excitement to the area of this project. Consider using a name that carries some information about what the project and provides some hint at what the project does without being too wordy.
+## Project Name: COMMA(Chasten Output Mutation Mutmut Analysis)
 
 ---
 
@@ -34,7 +32,9 @@ TODO: Discuss the methods of the project to be able to answer the `how` question
 
 ## Using the Artifact
 
-TODO: The result of your work will be the delivery of some type of artifact which will likely contain software programming solutions (i.e., Python code, HTML pages, or similar). To allow the user to experience and execute your artifact, you must first explain how to set up the initial conditions to run or use the artifact. Be sure to offer explicit details and instructions regarding the installation of the necessary foundational libraries, drivers, external software projects, containers and similar types of tertiary software which are involved in executing your artifact. Once these initial software installations have been completed, then you are asked to offer the necessary instructions for actually executing the artifact. For this, please provide all command line parameters or associated bash commands for execution. Please remember that users are unwilling to "figure-out" how to use code in absence of the essential instructions concerning the execution of project artifacts.
+Instructions are in the README of the `scripts` folder of the 
+[SEERS repo](https://github.com/AstuteSource/SEERS).
+Currently in the `Json-tidyData` branch, until PR #16 is merged.
 
 ## Results and Outcomes
 
