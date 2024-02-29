@@ -11,6 +11,7 @@ This repository contains student project materials, including project report, da
 
 ## Major: Previous CS Major (Current Project: Software Engineering)
 
+
 ## Project Name: COMMA(Chasten Output Mutation Mutmut Analysis)
 
 ---
@@ -20,7 +21,9 @@ This repository contains student project materials, including project report, da
 TODO (250 words minimum): Discuss the overview of the project using and building on the project description provided by the department. In this section, a concise summary is discussed of the study's key elements, offering the reader a quick understanding of the research's scope and goals. The section continues to outline the main topics, research questions, hypotheses, and /or theories in a clear and meaningful language to provide a type of roadmap for the reader to navigate the forthcoming details of the project. This section also needs to motivate the project by providing context for the study, outlining the current state of knowledge in the field, and highlighting any gaps or limitations in existing research. The section serves as a foundational guide that enables the reader to grasp the context of the study, in addition to its structure, before moving into a more technically-based discussion in the following sections of the article. In short, the "Overview" section needs to answer the `what` and `why` questions, that is `what is the project?` and `why is the project important?`
 
 This project seeks to create a Python version of the `Zhu2021` work, so as to
-examine code's testability utilizing mutants.
+examine code's testability utilizing mutants. Project found here:
+
+<https://github.com/AstuteSource/SEERS/tree/main>
 
 ## Literature Review
 
