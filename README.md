@@ -11,19 +11,32 @@ This repository contains student project materials, including project report, da
 
 ## Major: Previous CS Major (Current Project: Software Engineering)
 
-
 ## Project Name: COMMA(Chasten Output Mutation Mutmut Analysis)
 
 ---
 
 ## Overview
 
-TODO (250 words minimum): Discuss the overview of the project using and building on the project description provided by the department. In this section, a concise summary is discussed of the study's key elements, offering the reader a quick understanding of the research's scope and goals. The section continues to outline the main topics, research questions, hypotheses, and /or theories in a clear and meaningful language to provide a type of roadmap for the reader to navigate the forthcoming details of the project. This section also needs to motivate the project by providing context for the study, outlining the current state of knowledge in the field, and highlighting any gaps or limitations in existing research. The section serves as a foundational guide that enables the reader to grasp the context of the study, in addition to its structure, before moving into a more technically-based discussion in the following sections of the article. In short, the "Overview" section needs to answer the `what` and `why` questions, that is `what is the project?` and `why is the project important?`
-
 This project seeks to create a Python version of the `Zhu2021` work, so as to
-examine code's testability utilizing mutants. Project found here:
-
-<https://github.com/AstuteSource/SEERS/tree/main>
+examine code's testability utilizing mutants. The `Zhu2021` work is focused on
+Java, while our project is based in and around Python. The project, being
+completed by the team `SEERS`, has been titled `COMMA`, which stands for
+"Chasten Output Mutation Mutmut Analysis". Our work is done by using the tool
+`Chasten` to locate patterns within the code, and then using the tool `mutmut`
+to run a mutation analysis. The patterns `Chasten` locates are types of code
+that appear frequently, such as for loops and if statements. The mutation done
+by `mumut` is running the code through the tests with random alterations to
+inject bugs into the code, and gives the output of how many of these bugs are
+caught and how many are not. The output of these two checks are saved in a json
+file together, through which an analysis can then be run on the correlation
+between them. Specifically, the analysis is done via a statistical analysis and
+machine learning. The statistical analysis is the correlation between patterns
+and the mutation scores - i.e. how many mutants are 'killed' or 'survived',
+meaning how many of the errors created through mutation the tests catch.
+The intention is then to be able to identify 'high-risk'
+patterns/antipatterns that make the code being examined less testable. This will
+give users the ability to review their coding practices and examine how
+practical some of their choices are for testing. 
 
 ## Literature Review
 
