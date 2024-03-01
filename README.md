@@ -46,6 +46,14 @@ TODO: Conduct literature review by describing relevant work related to the proje
 
 TODO: Discuss the methods of the project to be able to answer the `how` question (`how was this project completed?`). The methods section in an academic research outlines the specific procedures, techniques, and methodologies employed to conduct the study, offering a transparent and replicable framework for the research. It details the resources behind the work, in terms of, for example, the design of the algorithm and the experiment(s), data collection methods, applied software libraries, required tools, the types of statistical analyses and models which are applied to ensure the rigor and validity of the study. This section provides clarity for other researchers to understand and potentially replicate the study, contributing to the overall reliability and credibility of the research findings.
 
+This project was created through the collaboration of the members of the `SEERS`
+team, who communicated via Discord and Github. We split into subteams in order
+to handle each element of the work, from drafting initial scripts and writing
+the checks for patterns to integrating machine learning and consolidating the
+scripts into a functional project usable from the command line. We each located
+a selection of open-source Python projects that use `poetry` to handle
+dependencies to test our work on. 
+
 ## Using the Artifact
 
 Instructions are in the README of the `scripts` folder of the 
