@@ -42,6 +42,44 @@ practical some of their choices are for testing.
 
 TODO: Conduct literature review by describing relevant work related to the project and hence providing an overview of the state of the art in the area of the project. This section serves to contextualize the study within the existing body of literature, presenting a thorough review of relevant prior research and scholarly contributions. In clear and meaningful language, this section aims to demonstrate the problems, gaps, controversies, or unanswered questions that are associated with the current understanding of the topic. In addition, this section serves to highlight the current study's unique contribution to the field. By summarizing and critiquing existing works, this section provides a foundation for readers to appreciate the novelty and significance of the study in relation to the broader academic discourse. The "Literature Review" section further contributes to the `why is the project important?` question. The number of scholarly work included in the literature review may vary depending on the project.
 
+The previously mentioned (`Zhu2021`)[https://github.com/ReadyResearchers-2023-24/cmpsc-580-exemplar-projects/blob/main/software-engineering/paper-pdfs/Zhu2021.pdf]
+work is a tool similar to the one worked on here, although it is only for Java,
+while the SEERS tool is for Python. An important central question of this work
+is if only improving the test cases for a project is enough, and examining the
+improvement of source code to be more testable as well. This is done by an
+analysis of the patterns found in code that can increase complex compared to
+the mutation scores, hence the SEERS performing something similar with Python.
+
+This is built off of work such as that of 
+(`Spadini2018`)[https://github.com/ReadyResearchers-2023-24/cmpsc-580-exemplar-projects/blob/main/software-engineering/paper-pdfs/Spadini2018.pdf].
+This research concerns itself with the relationship of 'test smells'(similar
+to the patterns/antipatterns discussed in other works, being defined here as
+sub-optimal design choices) and of code quality. This is done by running an
+assortment of tests on the code, and analyzing how well it accepts a wide
+variety of situations.
+
+The above is related closely to the work of
+(`Virginio2019`)[https://github.com/ReadyResearchers-2023-24/cmpsc-580-exemplar-projects/blob/main/software-engineering/paper-pdfs/Virginio2019.pdf].
+This introduces a tool for detecting test smells and explores the relationship
+between those test smells and test coverage. If code is not testable, it is
+likely to be detected by the test smells, and will result in a lower coverage.
+As such, using test smell detection programs can help the programmer find the
+code most in need of optimization.
+
+The above all deal with Java - but the work of
+(`Wang2021`)[https://github.com/ReadyResearchers-2023-24/cmpsc-580-exemplar-projects/blob/main/software-engineering/paper-pdfs/Wang2021.pdf]
+is a Python tool for detecting code smells. This is meant to extend the above
+work beyond Java, similar to the way the SEERS tool is attempting to expand the
+work of `Zhu2021`. This gives the identification of some test smells which aided
+in the construction of the SEERS tool.
+
+In regards to the mutation analysis aspect, there is the analysis presented in
+(`Jia2011`)[https://github.com/ReadyResearchers-2023-24/cmpsc-580-exemplar-projects/blob/main/software-engineering/paper-pdfs/Jia2011.pdf].
+This research shows the development of effective mutation tools as well as the
+assorted methods and trends. This helps build towards the mutation analysis
+aspect of the SEERS tool, and provides evidence that the mutation tools are
+relatively reliable.
+
 ## Methods
 
 This project was created through the collaboration of the members of the `SEERS`
